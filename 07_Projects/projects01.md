@@ -1,6 +1,7 @@
 # projects related to DOM
 
-## project link
+## [Project link ](https://stackblitz.com/edit/dom-project-chaiaurcode?file=2-BMICalculator%2Fchaiaurcode.js,2-BMICalculator%2Findex.html)
+
 
 # Solution code
 
