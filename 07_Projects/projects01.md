@@ -64,3 +64,16 @@ buttons.forEach(function(button){
 
  })
 ```
+## Project 3 Solution 
+
+``` javascript
+
+const clock = document.querySelector('#clock')
+
+setInterval(()=>{
+  let date = new Date()
+  const dateTime = date.toLocaleTimeString();
+  clock.innerHTML = dateTime
+},1000)
+
+```
