@@ -5,7 +5,7 @@
 
 # Solution code
 
-## Project 1 Solution
+## Project 1 Solution Color Changer 🔥
 
 ``` Javascript
 console.log("Bhushan")
@@ -38,7 +38,7 @@ buttons.forEach(function(button){
 });
 ```
 
-## Project 2 Solution
+## Project 2 Solution  BMI Generator ☕
 
 ``` javascript
  const form = document.querySelector('form')
@@ -77,3 +77,5 @@ setInterval(()=>{
 },1000)
 
 ```
+
+## Project 4 SOlution Guess Number 😍
