@@ -74,7 +74,7 @@ setInterval(()=>{
   let date = new Date()
   const dateTime = date.toLocaleTimeString();
   clock.innerHTML = dateTime
-},1000)
+},1000) 
 
 ```
 
@@ -178,5 +178,38 @@ function newGame() {
     })
 
 }
+
+```
+## Project 6 Solution Unlimited Colors 
+
+``` javascript 
+
+const randomColor = function(){
+  const hex = "0123456789ABCDEF";
+  let color = '#'
+  for(let i = 0; i < 6; i++){
+    color += hex[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
+
+const startChangingColor = function(){
+  document.body.style.backgroundColor = randomColor();
+};
+
+let startInterval = null;
+
+const startButton = document.querySelector("#start");
+startButton.addEventListener('click', function(){
+  if (!startInterval) {
+    startInterval = setInterval(startChangingColor, 1000);
+  }
+});
+
+const stopChangeColor = document.querySelector('#stop');
+stopChangeColor.addEventListener('click', function(){
+  clearInterval(startInterval);
+  startInterval = null;
+});
 
 ```
